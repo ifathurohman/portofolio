@@ -54,6 +54,20 @@ const Resume = ({brand, name, color}) => {
 
       <div className="aboutContainer container">
         <div className="row">
+          <motion.div
+            className="personalImage col-12 col-lg-6"
+            ref={ref}
+            initial={{x: '-10vw', opacity: 0, scale: 0.5}}
+            animate={
+              inView
+                ? {x: 0, opacity: 1, scale: 1}
+                : {x: '-10vw', opacity: 0, scale: 0.5}
+            }
+            transition={{duration: 0.4, ease: 'easeInOut'}}
+            whileHover={{scale: 1.05}}>
+            {/* Display the personal image */}
+            <motion.img src={resumeIMG} alt={name} />
+          </motion.div>
           <div className="personalInfo col-12 col-lg-6">
             <motion.div className="contentContainer" variants={staggerVariants}>
               {/* Display greeting and job title with animation */}
@@ -120,20 +134,6 @@ const Resume = ({brand, name, color}) => {
               </NavLink>
             </motion.div>
           </div>
-          <motion.div
-            className="personalImage col-12 col-lg-6"
-            ref={ref}
-            initial={{x: '-10vw', opacity: 0, scale: 0.5}}
-            animate={
-              inView
-                ? {x: 0, opacity: 1, scale: 1}
-                : {x: '-10vw', opacity: 0, scale: 0.5}
-            }
-            transition={{duration: 0.4, ease: 'easeInOut'}}
-            whileHover={{scale: 1.05}}>
-            {/* Display the personal image */}
-            <motion.img src={resumeIMG} alt={name} />
-          </motion.div>
         </div>
       </div>
     </section>
