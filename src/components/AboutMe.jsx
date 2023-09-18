@@ -38,6 +38,7 @@ const AboutMe = ({name}) => {
     animate: {y: 0, opacity: 1},
   };
 
+
   return (
     <div>
       <section className="about">
@@ -176,8 +177,8 @@ const AboutMe = ({name}) => {
                 </motion.div>
 
                 {/* Button to view the portfolio */}
-                <NavLink to="/portfolio">
-                  <Button name="View Portfolio" />
+                <NavLink to="/resume">
+                  <Button name="View Resume" />
                 </NavLink>
               </motion.div>
             </div>

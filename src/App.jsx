@@ -15,11 +15,11 @@ import PageNotFound from "./pages/404/PageNotFound";
 function App() {
   // Personal details for the user
   const personalDetails = {
-    name: "Ilham Fathurohman",
-    location: "Bandung",
-    email: "Faturahman.ilham@gmail.com",
+    name: 'Ilham Fathurohman',
+    location: 'Bandung',
+    email: 'Faturahman.ilham@gmail.com',
     brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      'The combination of technical expertise, creative thinking, and my background in computer science allows me to approach every project with a deep understanding of the end-user perspective, resulting in highly effective user-centered digital products.',
   };
 
   const location = useLocation();

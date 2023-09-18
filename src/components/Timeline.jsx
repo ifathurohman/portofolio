@@ -29,12 +29,12 @@ export default function Timeline() {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{
-          background: 'rgb(97 255 184)',
-          color: 'var(--text-color',
+          background: '#00b59e',
+          color: 'var(--text-color)',
         }}
-        contentArrowStyle={{borderRight: '7px solid  rgb(97 255 184)'}}
+        contentArrowStyle={{borderRight: '7px solid  #00b59e'}}
         date="Jan 2022 - Present"
-        iconStyle={{background: 'rgb(97 255 184)', color: 'var(--text-color'}}
+        iconStyle={{background: '#00b59e', color: 'var(--text-color)'}}
         icon={<WorkIcon />}>
         <h3 className="vertical-timeline-element-title">
           Quality Assurance & Devsecops - Fulltime

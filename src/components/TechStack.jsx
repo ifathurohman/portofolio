@@ -18,21 +18,28 @@ import sqlserver from '../images/icons/icons8-sql-server-96.png';
 import tailwind from '../images/icons/icons8-tailwind-css-96.png';
 
 const TechStack = () => {
+  const s = new Date().getTime() / 360;
+  const o = {
+    initial: [0, 0.1],
+    textColour: '#08fdd8',
+    shape: 'sphere',
+    reverse: true,
+    depth: 0.99,
+    maxSpeed: 0.02,
+    altImage: true,
+    animTiming: 'Smooth',
+    hideTags: true,
+    outlineMethod: 'none',
+    textHeight: 21,
+    wheelZoom: false,
+  };
+
+  o.initial[0] = 0.2 * Math.cos(s);
+  o.initial[1] = 0.2 * Math.sin(s);
+  
   useEffect(() => {
     try {
-      tagCanvas.Start('myCanvas', 'tags', {
-        textColour: '#08fdd8',
-        shape: 'sphere',
-        reverse: true,
-        depth: 0.99,
-        altImage: true,
-        animTiming: 'Smooth',
-        hideTags: true,
-        maxSpeed: 0.07,
-        outlineMethod: 'none',
-        textHeight: 21,
-        wheelZoom: false,
-      });
+      tagCanvas.Start('myCanvas', 'tags', o);
     } catch (e) {
       document.getElementById('myCanvasContainer').style.display = 'none';
     }
@@ -41,7 +48,7 @@ const TechStack = () => {
   return (
     <>
       <div id="myCanvasContainer">
-        <canvas width="500" height="500" id="myCanvas" style={{width: "100%"}}>
+        <canvas width="500" height="500" id="myCanvas" style={{width: '100%'}}>
           <p>
             Anything in here will be replaced on browsers that do not support
             the canvas element
