@@ -51,7 +51,7 @@ const TechStack = () => {
       <div id="tags" style={{display: 'none'}}>
         <ul>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="github"
                 alt="github"
@@ -63,7 +63,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="javascript"
                 alt="javascript"
@@ -74,7 +74,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="bootstrap"
                 alt="bootstrap"
@@ -85,12 +85,12 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img name="css" alt="css" width={50} height={50} src={css} />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="react"
                 alt="react"
@@ -101,12 +101,12 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img name="html" alt="html" width={50} height={50} src={html} />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="docker"
                 alt="docker"
@@ -117,7 +117,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="sqlserver"
                 alt="sqlserver"
@@ -128,7 +128,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="restapi"
                 alt="restapi"
@@ -139,7 +139,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="nodejs"
                 alt="nodejs"
@@ -150,7 +150,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="mongodb"
                 alt="mongodb"
@@ -161,7 +161,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="sqlserver"
                 alt="sqlserver"
@@ -172,7 +172,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="mysql"
                 alt="mysql"
@@ -183,7 +183,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img
                 name="docker"
                 alt="docker"
@@ -194,7 +194,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               {' '}
               <img
                 name="express"
@@ -206,7 +206,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               {' '}
               <img
                 name="firebase"
@@ -218,7 +218,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               {' '}
               <img
                 name="tailwind"
@@ -230,7 +230,7 @@ const TechStack = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               {' '}
               <img name="php" alt="php" width={50} height={50} src={php} />
             </a>

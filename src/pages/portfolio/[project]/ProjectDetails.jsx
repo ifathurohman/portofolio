@@ -4,7 +4,6 @@ import {motion} from 'framer-motion';
 import PageHeader from '../../../components/PageHeader';
 import PageNotFound from '../../404/PageNotFound';
 import Button from '../../../components/Button';
-import Image from '../../../components/Image';
 import projects from '../../../_data/projects.json';
 
 import ImageGallery from 'react-image-gallery';
