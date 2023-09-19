@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 @import '~react-image-gallery/styles/css/image-gallery.css';
 
 /* --- VARIABLES --- */
 :root {
-  --bg-color: #131a22 ;
-  --bg2-color: #232f3e19 ;
-  --hl-color: #5AFFB7 !important;
+  --bg-color: #131a22;
+  --bg2-color: #232f3e19;
+  --hl-color: #5affb7 !important;
   --hl2-color: #ea5b5c !important;
   --text-color: #f3f3f3 !important;
   --secondary-text-color: #999999 !important;
   --grey: #9f9f9f76;
   --spacing: 50px;
   --sm-spacing: 30px;
-  
+
   /* overflow-y: hidden;  */
   overflow-x: hidden;
 }
@@ -63,7 +63,7 @@ body,
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* --- GLOBAL STYLES --- */
@@ -97,7 +97,7 @@ body {
 
 .btn {
   color: #f9f9f9;
-  background-color: var(--hl-color);
+  background-color: var(--hl2-color);
   border: none;
   font-size: 14px;
   padding: 12px var(--sm-spacing);
@@ -110,7 +110,9 @@ body {
 }
 
 .btn:hover {
-  background-color: var(--hl2-color);
+  background-color: var(--hl-color);
+  color: #000000;
+  font-weight: 700;
 }
 
 .btn:hover .arrow-icon {
@@ -281,7 +283,7 @@ footer .socialIcons {
   }
 
   .links a:before {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -296,7 +298,7 @@ footer .socialIcons {
   }
 
   .links a.active:before {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -5px;
     left: 0;
