@@ -70,7 +70,9 @@ const ProjectDetails = () => {
                 items={project.image3}
                 autoPlay={true}
                 showThumbnails={false}
-                thumbnailPosition={'bottom'}
+                showNav={false}
+                showBullets={false}
+                lazyLoad={true}
               />
             </div>
             <div className="projectBody">

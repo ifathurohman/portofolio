@@ -151,28 +151,38 @@ const AboutMe = ({name}) => {
                   animate={inView ? 'animate' : 'initial'}>
                   {/* Paragraphs with animation */}
                   <motion.p variants={paragraphVariants}>
-                    As an{' '}
+                    I chose to pursue a career in the{' '}
                     <span style={{color: 'var(--hl-color)'}}>
-                      application developer
-                    </span>
-                    , the combination of these technologies allows you to build
-                    dynamic, secure, and easily manageable web applications with
-                    a variety of diverse features and functions
+                      MERN Fullstack
+                    </span>{' '}
+                    field because I had a deep interest in software development
+                    and web technology. I was greatly impressed by the MERN
+                    ecosystem (MongoDB, Express.js, React, Node.js) as it was a
+                    highly popular combination of technologies in modern{' '}
+                    <span style={{color: 'var(--hl-color)'}}>
+                      web development
+                    </span>{' '}
+                    . My strengths in both{' '}
+                    <span style={{color: 'var(--hl-color)'}}>
+                      frontend development
+                    </span>{' '}
+                    with React and{' '}
+                    <span style={{color: 'var(--hl-color)'}}>
+                      backend development
+                    </span>{' '}
+                    with Node.js and Express.js, along with MongoDB's
+                    capabilities as a NoSQL database, provided flexibility and
+                    speed in building efficient and scalable web applications.
                   </motion.p>
                   <br />
                   <motion.p variants={paragraphVariants}>
-                    By using the following combination of{' '}
-                    <span style={{color: 'var(--hl-color)'}}>technologies </span>
-                    to develop efficient and responsive{' '}
-                    <span style={{color: 'var(--hl-color)'}}>
-                      JavaScript-based web applications
-                    </span>
-                    , each component in this combination has a specific role in
-                    the application development process. These components allow
-                    developers to build complex web applications. This
-                    technology stack leverages JavaScript as the programming
-                    language throughout the stack, making integration and
-                    collaboration among the development team easier.
+                    I also observed that the demand for MERN Fullstack
+                    professionals was continuously rising, and I wanted to be a
+                    part of this rapidly growing community. Furthermore, I
+                    believed that by focusing on a consistent technology stack,
+                    I could deepen my knowledge and become an expert in this
+                    field. Therefore, I saw MERN Fullstack as the ideal platform
+                    to achieve my career goals and personal development.
                   </motion.p>
                 </motion.div>
 

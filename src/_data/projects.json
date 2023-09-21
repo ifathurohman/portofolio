@@ -214,7 +214,7 @@
     ],
     "body": "It was designed to monitor employees, monitor tender archives, and automatically generate CVs based on employee data according to templates provided by the client in .docx format",
     "github": "https://github.com/ifathurohman/e-database-cv",
-    "deployed": "#",
+    "deployed": "https://cecdatabasecv.com/",
     "bgcolor": "rgba(47,128,237,1)",
     "id": "3"
   },
@@ -467,7 +467,7 @@
     ],
     "body": "It was created to display company information, such as a description, products or services offered, and company contact details.",
     "github": "#",
-    "deployed": "#",
+    "deployed": "https://www.sapbandung.com/",
     "bgcolor": "#fab826",
     "id": "8"
   },
@@ -532,7 +532,7 @@
     ],
     "body": "It was created to display company information, such as a description, products or services offered, and company contact details.",
     "github": "#",
-    "deployed": "#",
+    "deployed": "https://rcelectronic.co.id/",
     "bgcolor": "#0c4769",
     "id": "9"
   }
