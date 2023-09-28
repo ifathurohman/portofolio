@@ -41,11 +41,10 @@ export default function Timeline() {
         </h3>
         <h4 className="vertical-timeline-element-subtitle">Bandung, ID</h4>
         <p>
-          Testing whether the modules created are under the needs of partners to
-          increase data accuracy by 90% which is contained in the test
-          attachment and also the log results as evidence that testing has been
-          carried out on the module using the application that has been made by
-          collaborating with the developer, partner and then operation division.
+          Checking whether the modules created meet the partner's requirements
+          to improve data accuracy, shaped includes test attachments and log
+          results as evidence of testing using the application developed in
+          collaboration with the development team.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
