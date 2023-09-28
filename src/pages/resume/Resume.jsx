@@ -19,7 +19,10 @@ import './resume.css';
  * @param {string} color - The background color of the button.
  */
 
+
 const Resume = ({brand, name, color}) => {
+  const urlResume =
+    'https://drive.google.com/file/d/1t-bVQIskRWZnv87K0QVE-vxNCvsCjyu0/view';
   const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
@@ -121,7 +124,7 @@ const Resume = ({brand, name, color}) => {
                   style={{backgroundColor: color}}
                   onClick={() =>
                     openInNewTab(
-                      'https://drive.google.com/file/d/1t-bVQIskRWZnv87K0QVE-vxNCvsCjyu0/view',
+                      `${urlResume}`,
                     )
                   }>
                   {/* Display the button name */}
